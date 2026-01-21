@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* --bg-primary: hsl(211, 89%, 11%); */
+  --bg-primary: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 50%, rgba(2, 0, 36, 1) 100%);
+  /* светло-синий фон главной */
+  --text-primary: hsl(118, 48%, 65%);
+  /* тёмный текст */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  background: var(--bg-primary);
+  /* ← динамический фон! */
+  color: var(--text-primary);
+
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+a {
+  font-weight: 500;
+  color: #a1a5f7;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #e2e4ff;
+}
+
+/* ТЕМА ДЛЯ QR-CODE СТРАНИЦЫ */
+[data-page="qr-code"] {
+  --bg-primary: hsl(212, 45%, 89%);
+  /* светло-синий фон главной */
+  --text-primary: hsl(218, 44%, 22%);
+  /* тёмный текст */
+  --card-bg: hsl(0, 0%, 100%);
+  /* белые карточки */
+  --border: hsl(212, 45%, 89%);
+  --accent: hsl(216, 15%, 48%);
+}
