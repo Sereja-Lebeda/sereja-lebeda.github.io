@@ -7,13 +7,13 @@ export default function MainPage() {
 
   const cards = [
     { name: "QR Code", path: "/qr-code" },
-    // { name: "Счётчик", path: "/counter" },
+    { name: "Card Preview", path: "/card-preview" },
     // { name: "ToDo", path: "/todo" },
   ];
 
   return (
     <>
-    <div className="flex flex-wrap justify-center items-center select-none">
+    <div className="flex flex-wrap justify-center items-center select-none gap-4">
     {cards.map((card) => (
         <SubdomainCard
           key={card.path}

@@ -1,0 +1,22 @@
+.whiteBox {
+  width: 380px;
+  height: auto;
+
+  background: white;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+
+  padding: 30px;
+
+  border: 1px solid black;
+  box-shadow: 10px 5px 5px black;
+
+  user-select: none;
+
+}

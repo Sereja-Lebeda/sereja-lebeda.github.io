@@ -60,3 +60,14 @@ a:hover {
   --border: hsl(212, 45%, 89%);
   --accent: hsl(216, 15%, 48%);
 }
+
+[data-page="card-preview"] {
+  --bg-primary: #f5d04e;
+  /* светло-синий фон главной */
+  --text-primary: hsl(218, 44%, 22%);
+  /* тёмный текст */
+  --card-bg: hsl(0, 0%, 100%);
+  /* белые карточки */
+  --border: hsl(212, 45%, 89%);
+  --accent: hsl(216, 15%, 48%);
+}
