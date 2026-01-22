@@ -8,6 +8,7 @@ export default function MainPage() {
   const cards = [
     { name: "QR Code", path: "/qr-code" },
     { name: "Card Preview", path: "/card-preview" },
+    { name: "Social links", path: "/social-links"}
     // { name: "ToDo", path: "/todo" },
   ];
 

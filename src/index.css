@@ -71,3 +71,11 @@ a:hover {
   --border: hsl(212, 45%, 89%);
   --accent: hsl(216, 15%, 48%);
 }
+
+[data-page="social-links"] {
+  --bg-primary: hsl(0, 0%, 8%);
+  --text-primary: hsl(0, 0%, 100%);
+  --text-accent: hsl(75, 94%, 57%);
+  --card-bg: hsl(0, 0%, 12%);
+  --links: hsl(0, 0%, 20%);
+}
