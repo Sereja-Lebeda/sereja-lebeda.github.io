@@ -4,6 +4,7 @@ import MainPage from "./components/MainPage";
 import QrCode from "../subDomains/newbie/qr-code/QrСode";
 import CardPreview from "../subDomains/newbie/card-preview/CardPreview"
 import SocialLinks from "../subDomains/newbie/social-links/SocialLinks"
+import RecipePage from "../subDomains/newbie/recipe-page/RecipePage"
 
 export const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ export const router = createBrowserRouter([
   {
     path: "/social-links",
     element: <SocialLinks />
+  },
+  {
+    path: "/recipe-page",
+    element: <RecipePage />
   },
   {
     path:"*",

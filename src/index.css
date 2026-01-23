@@ -39,6 +39,21 @@ body {
   line-height: 1.6;
 }
 
+ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+ol ::marker {
+  color: var(--text-titles);
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
 a {
   font-weight: 500;
   color: #a1a5f7;
@@ -78,4 +93,18 @@ a:hover {
   --text-accent: hsl(75, 94%, 57%);
   --card-bg: hsl(0, 0%, 12%);
   --links: hsl(0, 0%, 20%);
+}
+
+[data-page="recipe-page"] {
+  --bg-primary: hsl(30, 54%, 90%);
+  --text-titles: hsl(14, 45%, 36%);
+  --text-primary: hsl(24, 5%, 18%);
+  /* --text-accent: hsl(333, 35%, 54%); */
+  --text-accent: hsl(332, 51%, 32%);
+  --card-bg: hsl(330, 100%, 98%);
+
+  --whiteBox: hsl(0, 0%, 100%)
+    /* - Stone 150: hsl(30, 18%, 87%) */
+    /* - Stone 600: hsl(30, 10%, 34%) */
+    /* - Stone 900: hsl(24, 5%, 18%) */
 }

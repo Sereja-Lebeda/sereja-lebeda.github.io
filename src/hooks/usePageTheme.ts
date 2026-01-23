@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-type PageTheme = "qr-code" | "card-preview" | "social-links" | null
+type PageTheme = "qr-code" | "card-preview" | "social-links" | "recipe-page" | null
 
 export function usePageTheme(theme: PageTheme) {
   useEffect (() => {
