@@ -39,6 +39,12 @@ body {
   line-height: 1.6;
 }
 
+img {
+  /* border-radius: 10px; */
+  max-width: 100%;
+  max-height: 100%;
+}
+
 ol {
   list-style-type: decimal;
   list-style-position: inside;
@@ -99,12 +105,15 @@ a:hover {
   --bg-primary: hsl(30, 54%, 90%);
   --text-titles: hsl(14, 45%, 36%);
   --text-primary: hsl(24, 5%, 18%);
-  /* --text-accent: hsl(333, 35%, 54%); */
   --text-accent: hsl(332, 51%, 32%);
   --card-bg: hsl(330, 100%, 98%);
 
   --whiteBox: hsl(0, 0%, 100%)
-    /* - Stone 150: hsl(30, 18%, 87%) */
-    /* - Stone 600: hsl(30, 10%, 34%) */
-    /* - Stone 900: hsl(24, 5%, 18%) */
+}
+
+[data-page="article-preview"] {
+  --bg-primary: hsl(212, 23%, 69%);
+  --text-primary: hsl(214, 17%, 51%);
+  --card-bg: hsl(217, 19%, 35%);
+  --icon: hsl(210, 46%, 95%)
 }

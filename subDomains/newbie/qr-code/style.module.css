@@ -25,13 +25,6 @@
 
 }
 
-img {
-  border-radius: 10px;
-  max-width: 100%;
-  max-height: 100%;
-
-}
-
 .textSpans {
   display: flex;
   flex-direction: column;

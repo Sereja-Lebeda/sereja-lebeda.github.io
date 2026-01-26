@@ -1,4 +1,4 @@
-import React from "react"
+import { Link } from "react-router-dom"
 import { usePageTheme } from "../../../src/hooks/usePageTheme"
 
 export default function ReciptePage() {
@@ -7,7 +7,12 @@ export default function ReciptePage() {
 
   return(
     <>
-    <div className="w-[550px] h-auto flex flex-col justify-start items-start bg-(--card-bg) rounded-xl p-6 m-6 space-y-5">
+    <Link to={"/"}> 
+    <span className="text-blue-700 text-lg select-none">
+      Get back 
+      </span>
+      </Link>
+    <div className="w-[550px] h-auto flex flex-col justify-start items-start bg-(--card-bg) rounded-xl p-6 space-y-5 select-none">
       <img src="subDomains\newbie\recipe-page\assets\images\image-omelette.jpeg" alt="" />
 
       <span className="font-bold text-(--text-primary) text-3xl">Simple Omelette Recipe</span>
