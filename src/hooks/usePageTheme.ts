@@ -1,19 +1,24 @@
 import { useEffect } from "react";
 
-type PageTheme = "qr-code" | "card-preview" | "social-links" | "recipe-page" | "article-preview" | null
+type PageTheme =
+  | "qr-code"
+  | "card-preview"
+  | "social-links"
+  | "recipe-page"
+  | "article-preview"
+  | "sign-up"
+  | null;
 
 export function usePageTheme(theme: PageTheme) {
-  useEffect (() => {
-    if (!theme) return
+  useEffect(() => {
+    if (!theme) return;
 
     // Установка на html для смены темы
-    document.documentElement.setAttribute('data-page', theme)
-
+    document.documentElement.setAttribute("data-page", theme);
 
     // Удалеие атрибута для возвращения исходной темы
     return () => {
-      document.documentElement.removeAttribute('data-page')
-    }
-  }, [theme])
+      document.documentElement.removeAttribute("data-page");
+    };
+  }, [theme]);
 }
-
