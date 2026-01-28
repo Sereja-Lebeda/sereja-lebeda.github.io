@@ -11,6 +11,7 @@ export default function MainPage() {
     { name: "Recipe page", path: "/recipe-page" },
     { name: "Article Preview", path: "/article-preview" },
     { name: "Sign Up", path: "/sign-up" },
+    { name: "Time Tracker", path: "/time-track" },
     // { name: "ToDo", path: "/todo" },
   ];
 

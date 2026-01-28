@@ -15,14 +15,6 @@ export default function SignUp() {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const inputEmail = e.target.value;
     setEmail(inputEmail);
-
-    // if (!inputEmail.trim()) {
-    //   setError("Email is required");
-    // } else if (!EMAIL_REGEX.test(inputEmail)) {
-    //   setError("Valid email required");
-    // } else {
-    //   setError(""); // * Clear error if email is valid
-    // }
   };
 
   const handleToggle = (e: React.FormEvent<HTMLButtonElement>) => {
@@ -45,17 +37,8 @@ export default function SignUp() {
       }
       setSubmittedEmail(trimmed);
       setSubscribe(true);
-      setError("");
+      setError(""); // * Clear error if email is valid
       setEmail("");
-
-      //   if (email.trim()! != "" && error === "") {
-      //     if (!error && email) {
-      //       setSubscibe(true);
-      //       console.log("Email submitted");
-      //     }
-      //   } else {
-      //     setError("Email is required");
-      //   }
     }
   };
 
@@ -76,7 +59,7 @@ export default function SignUp() {
         <div className="w-120 h-auto bg-(--card-bg) rounded-4xl space-y-8 flex flex-col justify-center items-center p-8">
           <div className="w-full">
             <img
-              src="..\subDomains\newbie\sign-up\assets\images\icon-success.svg"
+              src="..\subDomains\junior\sign-up\assets\images\icon-success.svg"
               alt=""
             />
           </div>
@@ -110,7 +93,7 @@ export default function SignUp() {
             <div className="hauto flex flex-col justify-center items-start ">
               <div className="flex justify-start items-center gap-4">
                 <img
-                  src="..\subDomains\newbie\sign-up\assets\images\icon-list.svg"
+                  src="..\subDomains\junior\sign-up\assets\images\icon-list.svg"
                   alt=""
                 />
                 <span>Product discovery and building what matters</span>
@@ -118,7 +101,7 @@ export default function SignUp() {
 
               <div className="flex justify-start items-center gap-4">
                 <img
-                  src="..\subDomains\newbie\sign-up\assets\images\icon-list.svg"
+                  src="..\subDomains\junior\sign-up\assets\images\icon-list.svg"
                   alt=""
                 />
                 <span>Measuring to ensure updates are a success</span>
@@ -126,7 +109,7 @@ export default function SignUp() {
 
               <div className="flex justify-start items-center gap-4">
                 <img
-                  src="..\subDomains\newbie\sign-up\assets\images\icon-list.svg"
+                  src="..\subDomains\junior\sign-up\assets\images\icon-list.svg"
                   alt=""
                 />
                 <span>And much more!</span>
@@ -167,7 +150,7 @@ export default function SignUp() {
           </div>
 
           <img
-            src="..\subDomains\newbie\sign-up\assets\images\illustration-sign-up-desktop.svg"
+            src="..\subDomains\junior\sign-up\assets\images\illustration-sign-up-desktop.svg"
             alt=""
             className="rounded-2xl p-4"
           />

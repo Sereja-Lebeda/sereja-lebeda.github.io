@@ -6,7 +6,8 @@ import CardPreview from "../subDomains/newbie/card-preview/CardPreview";
 import SocialLinks from "../subDomains/newbie/social-links/SocialLinks";
 import RecipePage from "../subDomains/newbie/recipe-page/RecipePage";
 import ArticlePreview from "../subDomains/newbie/article-preview/ArticlePreview";
-import SignUp from "../subDomains/newbie/sign-up/SignUp";
+import SignUp from "../subDomains/junior/sign-up/SignUp";
+import TimeTrack from "../subDomains/junior/time-tracking/TimeTrack";
 
 export const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ export const router = createBrowserRouter([
   {
     path: "/sign-up",
     element: <SignUp />,
+  },
+  {
+    path: "/time-track",
+    element: <TimeTrack />,
   },
   {
     path: "*",

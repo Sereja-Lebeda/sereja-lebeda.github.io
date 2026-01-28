@@ -7,6 +7,7 @@ type PageTheme =
   | "recipe-page"
   | "article-preview"
   | "sign-up"
+  | "time-track"
   | null;
 
 export function usePageTheme(theme: PageTheme) {
