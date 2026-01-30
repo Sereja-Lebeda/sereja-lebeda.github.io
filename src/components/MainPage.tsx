@@ -12,6 +12,7 @@ export default function MainPage() {
     { name: "Article Preview", path: "/article-preview" },
     { name: "Sign Up", path: "/sign-up" },
     { name: "Time Tracker", path: "/time-track" },
+    { name: "Tip Calculator", path: "/tip-calc" },
     // { name: "ToDo", path: "/todo" },
   ];
 

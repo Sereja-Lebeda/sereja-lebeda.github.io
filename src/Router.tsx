@@ -8,6 +8,7 @@ import RecipePage from "../subDomains/newbie/recipe-page/RecipePage";
 import ArticlePreview from "../subDomains/newbie/article-preview/ArticlePreview";
 import SignUp from "../subDomains/junior/sign-up/SignUp";
 import TimeTrack from "../subDomains/junior/time-tracking/TimeTrack";
+import TipCalculator from "../subDomains/junior/tip-calculator/TipCalculator";
 
 export const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ export const router = createBrowserRouter([
   {
     path: "/time-track",
     element: <TimeTrack />,
+  },
+  {
+    path: "/tip-calc",
+    element: <TipCalculator />,
   },
   {
     path: "*",

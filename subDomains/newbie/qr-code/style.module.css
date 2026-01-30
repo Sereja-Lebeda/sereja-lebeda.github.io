@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+/* @import url("https://f.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"); */
 
 .whiteBox {
   width: 250px;
@@ -21,8 +21,6 @@
   align-items: start;
 
   margin-bottom: 25px;
-
-
 }
 
 .textSpans {
@@ -31,7 +29,7 @@
   justify-content: center;
   align-items: end;
 
-  gap: 10px
+  gap: 10px;
 }
 
 .mainText {
@@ -40,7 +38,6 @@
   font-weight: 700;
   color: var(--slate-900);
   font-size: 20px;
-
 }
 
 .miniText {
@@ -49,5 +46,4 @@
   font-weight: 400;
   color: var(--slate-500);
   font-size: 15px;
-
 }

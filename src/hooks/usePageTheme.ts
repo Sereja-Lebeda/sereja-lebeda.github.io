@@ -8,6 +8,7 @@ type PageTheme =
   | "article-preview"
   | "sign-up"
   | "time-track"
+  | "tip-calc"
   | null;
 
 export function usePageTheme(theme: PageTheme) {

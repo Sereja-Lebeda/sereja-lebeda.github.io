@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 @import "tailwindcss";
 
 :root {
@@ -34,8 +36,8 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family:
-    -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  /* font-family: */
+  /* -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; */
   background: var(--bg-primary);
   /* ← динамический фон! */
   color: var(--text-primary);
@@ -149,4 +151,17 @@ a:hover {
   --exercise-bg: hsl(145, 58%, 55%);
   --social-bg: hsl(264, 64%, 52%);
   --self-care-bg: hsl(43, 84%, 65%);
+}
+
+[data-page="tip-calc"] {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  --bg-primary: hsl(185, 41%, 84%);
+  --text-primary: hsl(184, 14%, 56%);
+  --text-accent: hsl(186, 14%, 43%);
+  --btn-active: hsl(172, 67%, 45%);
+  --btn-passive: hsl(183, 100%, 15%);
+  --btn-act-custom: hsl(189, 47%, 97%);
+  --card-bg: hsl(0, 100%, 100%);
+  --card-bg-hover: hsl(235, 28%, 25%);
 }
